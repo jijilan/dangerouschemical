@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jijl.alarm.modules.mapper.AlarmInfoMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, alarm_num, alarm_code, station_id, record_time, video_url, shot_video_url, alarm_begin_time, alarm_end_time, duration, processing_status, processing_time, processing_user, add_user, add_time, edit_user, edit_time, rtsp, erro_alarm, erro_alarm_user, erro_alarm_time, help_status, help_user, help_time, other_infor1, other_infor2, other_infor3, status, operation_state, remark
+    </sql>
+
+</mapper>
