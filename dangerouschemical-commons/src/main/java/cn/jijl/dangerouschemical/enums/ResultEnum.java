@@ -29,7 +29,10 @@ public enum ResultEnum {
 
     CODE_415(415, "请求参数格式错误！"),
 
-    CODE_500(500, "服务器出错了，请联系后台开发人员！");
+    CODE_500(500, "服务器出错了，请联系后台开发人员！"),
+    CODE_6001(6001, "服务降级返回！"),
+    CODE_6002(6002, "异常handlerFallback！"),
+    CODE_6003(6003, "blockHandler-sentinel 限流!");
 
     private Integer code;
 
